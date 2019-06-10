@@ -1,0 +1,35 @@
+{
+    "title": "Mutambo Leageu Web Site",
+    "name": "ML",
+    "version": "4.2.0",
+    "scripts": {
+        "start": "gulp watch"
+    },
+    "description": "Gamers Web Site",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "homepage": "https://mutamboleague.co.zw",
+
+    "license": "MIT",
+    "author": "DeveloperPrince",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Princr/Mutambo-Gamers-League.git"
+    },
+    "dependencies": {
+        "bootstrap": "4.3.1",
+        "jquery": "3.4.1"
+    },
+    "devDependencies": {
+        "browser-sync": "2.26.5",
+        "del": "^4.1.1",
+        "gulp": "4.0.2",
+        "merge-stream": "^1.0.1"
+    }
+}
