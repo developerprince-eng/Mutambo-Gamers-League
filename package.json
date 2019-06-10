@@ -15,7 +15,6 @@
         "template"
     ],
     "homepage": "https://mutamboleague.co.zw",
-
     "license": "MIT",
     "author": "DeveloperPrince",
     "repository": {
@@ -24,6 +23,7 @@
     },
     "dependencies": {
         "bootstrap": "4.3.1",
+        "ftp-deploy": "^2.3.3",
         "jquery": "3.4.1"
     },
     "devDependencies": {

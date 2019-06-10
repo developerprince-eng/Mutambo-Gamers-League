@@ -4,3 +4,4 @@
 .DS_Store?
 dist/*
 Mutambo New Site.pdf
+package-lock.json
