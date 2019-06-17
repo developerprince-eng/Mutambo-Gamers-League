@@ -1,0 +1,60 @@
+body{
+    background-image: url('/assets/imgs/Reg\ Page/Mutambo\ Backgrounds-02.jpg');
+    background-origin: inherit;
+    background-size: cover;
+    background-repeat: inherit;
+    height: 100vh;
+    width: auto;
+    overflow: hidden;
+}
+.out-container{
+    margin-bottom: auto;
+    align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.ml-form{
+    border-radius: 20px;
+    background: #1a1a1a;
+    opacity: 0.8;
+}
+.ml-reg-log{
+    height: 84PX;
+}
+.form-group{
+    width: 90% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.form-control{
+    border-color: aliceblue;
+    background: #1a1a1a;
+}
+.ml-btn-sgn{
+    background: black !important;
+    opacity: 1 !important;
+    border: none !important;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+   /* Extra small devices (portrait phones, less than 576px) */
+    /* Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) { 
+
+    }
+
+    /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) {  
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) { 
+
+    }
+
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) { 
+
+    }

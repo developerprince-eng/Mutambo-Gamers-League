@@ -1,0 +1,214 @@
+    @import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900&display=swap');
+    @font-face{
+        font-family: 'Century-Gothic';
+        src:
+        url('/assets/fonts/century-gothic/CenturyGothic.ttf') format('ttf')
+    }
+    html{
+        
+        width: 100%
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Raleway';
+    }
+
+    p, span {
+        padding: 0;
+        width: 100%;
+        font-size: 1.15rem;
+        font-family: 'Century-Gothic';
+    }
+    body{
+        background: grey;
+    }
+    .ml-primary-section{
+        background-image: url('/assets/imgs/Main\ Site/1x/Asset\ 34.png');
+        height: 100%;
+        width: auto;
+    }
+    .ml-events-section{
+        background: #1a1a1a;
+        height: 100%;
+        width: auto;
+    }
+    .ml-news-cen-img{
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+    }
+    .ml-news-img{
+        height: 50%;
+        margin-top: 9rem;
+    }
+    .ml-swag-img{
+        height: 50%;
+        margin-top: 150px;
+        margin-left: 100px;
+        margin-right: auto;
+    }
+    .ml-sp-pt-h{
+        color: #1a1a1a;
+        font-weight: bold;
+    }
+    .ml-news-section{
+        background-image: url('/assets/imgs/Main\ Site/1x/Asset\ 30.png') ;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+    .ml-sec-item{
+        margin-right: auto;
+        margin-left: auto;
+        color: #be1e2d;
+        font-weight: 900;
+    }
+    .ml-sec-opt{
+        margin-top: 50%;
+        margin-bottom: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ml-promo{
+        height: 60%;
+        width: auto;
+    }
+    .ml-aboutus-section{
+        background-image: url('/assets/imgs/Main\ Site/1x/Asset\ 32.png');
+        background-repeat: no-repeat;
+        height: 100%;
+        width: auto;
+    }
+    .ml-head-div{
+        margin-top: 8rem;
+    }
+    .ml-abt-p{
+        text-align: justify;
+        color: black;
+    }
+    .ml-img{
+        width: 32% !important;
+    }
+    .ml-head-1{
+        font-size: 6rem;
+        text-align: left;
+        opacity: 0.2;
+    }
+    .ml-head-2{
+        top: 6rem;
+        font-size: 6rem;
+        text-align: left;
+        opacity: 0.2;
+    }
+    .ml-bold{
+        font-weight: 900 !important;
+    }
+    .ml-nav{
+        position: inherit;
+        z-index: 1000;
+        opacity: 1 !important; 
+    }
+    .ml-gm-line{
+        border: 0; border-top: 5px solid #be1e2d;
+        width: 20%;
+        position: absolute;
+        bottom: 2.5rem;
+        right: 1.25rem;
+    }
+    .ml-abt{
+        margin-top: 15%;
+        margin-bottom: 25%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ml-gm-about{
+        margin-top: 50%;
+        margin-bottom: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 70%;
+        width: auto;
+    }
+    .ml-gm-events{
+        right: 1.25ren;
+        margin-top: 50%;
+        margin-bottom: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 70%;
+        width: auto;
+    }
+    .ml-sections-img{
+        position: absolute;
+        top: 5.25rem;
+        height: 60%;
+    }
+ 
+    .ml-r-line{
+        border: 0; border-top: 5px solid #be1e2d;
+        position: absolute;
+        top: 2rem;
+        width: 60%;
+        border-style: inset;
+    }
+    .ml-gm-unite{
+        position: absolute;
+        bottom: 80px;
+        right: 20px;
+        height: 60%;
+        width: auto;
+    }
+    .ml-knight{
+        height: 90%;
+        width: 100%;
+    }
+
+    .ml-btn-signin{
+        height: auto;
+    }
+    .ml-footer-img{
+        height: 15%;
+
+        bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        right: 50%;
+        left: 50%;
+    }
+    .ml-footer{
+        background: #1a1a1a;
+        height: 17%;
+    }
+
+    /* Extra small devices (portrait phones, less than 576px) */
+    /* Small devices (landscape phones, 576px and up) */
+    @media (max-width: 576px) {
+        .ml-knight, .ml-swag-img, .ml-news-img, .ml-gm-about, .ml-news-cen-img, .ml-gm-events{
+            display: none;  
+        }
+        .ml-head-1{
+            font-size: 3rem;
+            text-align: left;
+            opacity: 0.2;
+        }
+        .ml-head-2{
+            top: 0rem;
+            font-size: 2rem;
+            text-align: left;
+            opacity: 0.2;
+        }
+    }
+
+    /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) {
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+
+    }
+
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+
+    }
