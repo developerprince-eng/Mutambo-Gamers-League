@@ -24,7 +24,7 @@
     "dependencies": {
         "bootstrap": "4.3.1",
         "ftp-deploy": "^2.3.3",
-        "jquery": "3.4.1"
+        "jquery": "3.5.0"
     },
     "devDependencies": {
         "browser-sync": "2.26.5",
